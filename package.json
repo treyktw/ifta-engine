@@ -1,0 +1,28 @@
+{
+  "name": "ifta-engine",
+  "version": "0.1.0",
+  "description": "Attribute GPS-trace miles to US states and Canadian provinces from any public GeoJSON, then do the IFTA quarterly fuel-tax math. TypeScript and Rust, proven identical by shared fixtures.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:rust": "cargo test --manifest-path rust/Cargo.toml",
+    "demo": "tsx scripts/demo.ts",
+    "demo:rust": "cargo run --quiet --manifest-path rust/Cargo.toml --example attribute_trace",
+    "generate:trace": "tsx scripts/generate-trace.ts",
+    "generate:fixtures": "tsx scripts/generate-fixtures.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
+  }
+}

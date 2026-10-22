@@ -1,0 +1,12 @@
+{
+  "periodKey": "2026-Q2",
+  "source": "IFTA Inc. quarterly tax rate matrix — Q2 2026",
+  "rates": [
+    { "jurisdiction": "AL", "ratePerGallon": 0.0 },
+    { "jurisdiction": "GA", "ratePerGallon": 0.0 },
+    { "jurisdiction": "CA", "ratePerGallon": 0.0, "surchargeRatePerGallon": 0.0 },
+    { "jurisdiction": "IN", "ratePerGallon": 0.0, "surchargeRatePerGallon": 0.0 },
+    { "jurisdiction": "KY", "ratePerGallon": 0.0, "surchargeRatePerGallon": 0.0 },
+    { "jurisdiction": "VA", "ratePerGallon": 0.0, "surchargeRatePerGallon": 0.0 }
+  ]
+}

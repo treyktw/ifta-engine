@@ -1,0 +1,9 @@
+{
+  "description": "SYNTHETIC fuel receipts matching data/traces/dallas-to-cincinnati.json. Vendors are generic placeholders.",
+  "purchases": [
+    { "purchasedAt": "2026-04-14T10:40:00Z", "jurisdiction": "TX", "gallons": 62.0, "totalCost": 223.20, "vendor": "Truck Stop A" },
+    { "purchasedAt": "2026-04-14T16:55:00Z", "jurisdiction": "MS", "gallons": 48.5, "totalCost": 168.30, "vendor": "Truck Stop B" },
+    { "purchasedAt": "2026-04-15T07:30:00Z", "jurisdiction": "GA", "gallons": 51.2, "totalCost": 181.76, "vendor": "Truck Stop C" },
+    { "purchasedAt": "2026-04-15T14:20:00Z", "jurisdiction": "KY", "gallons": 24.8, "totalCost": 88.04, "vendor": "Truck Stop D" }
+  ]
+}
